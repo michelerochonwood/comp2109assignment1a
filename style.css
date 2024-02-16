@@ -1,0 +1,100 @@
+/*
+Theme Name: Assignment One
+Author: Michele Rochon-Wood
+Description: THis is our first custom theme
+Requires at least: 5.9
+Tested up to: 6.4
+Requires: PHP: 5.6
+Version: 1.0
+*/
+body {
+    font-family: 'Lora', serif;
+    margin-bottom: 200px; /* Add space at the bottom for the footer */
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+.h1 {
+    text-align: center;
+}
+
+.container-home {
+    font-family: "Poppins";
+    font-weight:300;
+    text-align: center;
+    margin: auto;
+    align-items: auto;
+    align-self: auto;
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+  
+  }
+  
+  .hometitle {
+    color: white;
+    font-size: 5vh;
+  }
+  
+  
+  .name {
+    color:rgb(248, 237, 191);
+    font-family: "Lora";
+    font-size: 4vh;
+  
+  }
+  
+  .btn-orange-glow {
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: rgb(37, 37, 37);
+    color:rgb(248, 237, 191);
+    padding: auto;
+    margin: 5%;
+    border-color: bisque;
+    max-height: 40px;
+    font-size: 2vh;
+    justify-content: center;
+  }
+  
+  .btn-orange-glow:hover {
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7);
+    border-color: rgba(255, 165, 0);
+    background-color: black;
+    color: rgba(255, 165, 0);
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .objective {
+    color:rgb(248, 237, 191);
+    font-family: "Lora";
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    font-size: 4vh;
+    max-width: 60%;
+    margin-top: 100px;
+  
+  }
+
+.p {
+    color: white;
+}
+.text-center {
+    color: white;
+}
+
+h4 {
+    color: grey;
+    text-align: center;
+    font-size: 2vh;
+}
